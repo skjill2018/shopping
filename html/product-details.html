@@ -127,7 +127,76 @@
                 <span class="buy">立即购买</span>
             </div>
         </div>
+
+        <!-- 规格选择 -->
+        <div id="selectbox">
+            <div class="specification-select">
+                <!-- 图片及价格 -->
+                <div class="top-imgbox">
+                    <!-- 图片 -->
+                    <div class="pro-img">
+                        <img src="../img/gg2.png" alt="" class="side-img">
+                        <img src="../img/gg1.png" alt="">
+                        <img src="../img/gg3.png" alt="" class="side-img">
+                    </div>
+                    <!-- 价格 -->
+                    <div class="pro-price">
+                        <p class="price-color">￥210.00</p>
+                        <p>库存68件</p>
+                        <p class="specification-color">选择 <span>蓝色</span> 规格</p>
+                    </div>
+                </div>
+                <!-- 相关规格 -->
+                <div class="middle-specification">
+                    <div class="subheadbox">
+                        <h4>颜色分类</h4>
+                        <div class="subhead-content">
+                            <span class="speci-color">蓝色</span>
+                            <span>红色</span>
+                            <span>黄色</span>
+                            <span>绿色</span>
+                        </div>
+                    </div>
+                    <div class="subheadbox">
+                        <h4>规格</h4>
+                        <div class="subhead-content">
+                            <span>10ml</span>
+                            <span>20ml</span>
+                            <span>30ml</span>
+                            <span>40ml</span>
+                        </div>
+                    </div>
+                    <div class="subheadbox">
+                        <h4>数量</h4>
+                        <div class="subhead-content number">
+                            <span class="iconfont number-left">&#xe620;</span>
+                            <span class="number-middle">1</span>
+                            <span class="iconfont number-right">&#xe6a1;</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- 底部选择按钮 -->
+                <div class="bottom-select">
+                    <span class="add">加入购物车</span>
+                    <span class="buy">立即购买</span>
+                </div>
+            </div>
+        </div>
     </div>
+    
+    <script>
+        window.onload = function(){
+            function $(id){
+                return document.getElementById(id); 
+            }
+            $("select").onclick = function(){
+                $("selectbox").style.display = "block";
+            }
+            $("selectbox").onclick = function(){
+                this.style.display = "none";
+            }
+        }
+    </script>
 </body>
 
 </html>

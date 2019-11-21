@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0,
+				maximum-scale=1.0, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>我的收藏</title>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../font/iconfont.css">
+    <link rel="stylesheet" href="../css/my_collection.css">
+    <script src="../js/rem.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <!-- 页面标题 -->
+        <header class="page-title">
+            <a href="#"></a>
+            我的收藏
+        </header>
+
+        <!-- 收藏-->
+        <div class="collectionbox">
+            <!-- 小标题 -->
+            <div class="little-title">
+                已收藏5件商品
+            </div>
+            <!-- 收藏列表 -->
+            <ul class="collection-list">
+                <li>
+                    <a href="#" class="collection">
+                        <img src="../img/sp.png" alt="">
+                        <div class="text">
+                            <div class="text-top">
+                                铝合金拉杆箱万轮轴24寸
+                            </div>
+                            <div class="text-middle">
+                                明显同款防尘保护防滑易清洗的24寸拉杆箱，优明显同
+                            </div>
+                            <div class="text-bottom">
+                                ￥6999.00
+                            </div>
+                        </div>
+                    </a>
+                    <div class="del">
+                        <i class="iconfont icon-jian"></i>
+                        <p>删除</p>
+                    </div>
+                </li>
+                <li>
+                    <a href="#" class="collection">
+                        <img src="../img/sp.png" alt="">
+                        <div class="text">
+                            <div class="text-top">
+                                铝合金拉杆箱万轮轴24寸
+                            </div>
+                            <div class="text-middle">
+                                明显同款防尘保护防滑易清洗的24寸拉杆箱，优明显同
+                            </div>
+                            <div class="text-bottom">
+                                ￥6999.00
+                            </div>
+                        </div>
+                    </a>
+                    <div class="del">
+                        <i class="iconfont icon-jian"></i>
+                        <p>删除</p>
+                    </div>
+                </li>
+                <li>
+                    <a href="#" class="collection">
+                        <img src="../img/sp.png" alt="">
+                        <div class="text">
+                            <div class="text-top">
+                                铝合金拉杆箱万轮轴24寸
+                            </div>
+                            <div class="text-middle">
+                                明显同款防尘保护防滑易清洗的24寸拉杆箱，优明显同
+                            </div>
+                            <div class="text-bottom">
+                                ￥6999.00
+                            </div>
+                        </div>
+                    </a>
+                    <div class="del">
+                        <i class="iconfont icon-jian"></i>
+                        <p>删除</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <script>
+        window.onload = function(){
+            var lis = document.getElementsByTagName("li");
+            var as = document.getElementsByClassName("collection");
+            var del = document.getElementsByClassName("del");
+            for(var i=0;i<as.length;i++){
+                as[i].onmouseover = function(){
+                    this.style = "margin-left:-1.5rem";
+                }
+                as[i].onmouseout = function(){
+                    this.style = "margin-left:0";
+                }
+            }
+        }
+    </script>
+</body>
+
+</html>

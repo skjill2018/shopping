@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0,
+				maximum-scale=1.0, user-scalable=no">
+		<meta charset="utf-8">
+		<title>购物车</title>
+		<link rel="stylesheet" type="text/css" href="../css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/cart.css"/>
+		<script src="../js/rem.js" type="text/javascript" charset="utf-8"></script>
+		<link rel="stylesheet" href="../font/iconfont.css">
+		<script src="../js/jquery-1.6.2.min.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			$(function()
+			{
+				//管理
+				$("#header_quota").click(function()
+				{
+					
+					if($(this).text()=="完成")
+					{
+						$(this).text("管理");
+						$(".foot_settlement_middle").show();
+						$(".delete").text("去结算");
+						$(".delete").addClass("foot_settlement_right");
+						$(".delete").removeClass("delete");
+					}
+					else
+					{
+						$(this).text("完成");
+						$(".foot_settlement_middle").hide();
+						$(".foot_settlement_right").text("删除");
+						$(".foot_settlement_right").addClass("delete");
+						$(".foot_settlement_right").removeClass("foot_settlement_right");
+					}
+					
+				})
+				
+				//全选
+				$(".foot_settlement_left").click(function()
+				{
+					$(this).children(".iconfont").toggleClass("icon-gouhao");
+					if($(this).children(".iconfont").hasClass("icon-circle"))
+					{
+						$(this).children(".iconfont").removeClass("icon-circle");
+						$(".item_left").children(".iconfont").addClass("icon-gouhao");
+						$(".item_left").children(".iconfont").removeClass("icon-circle");
+					}
+					else
+					{
+						$(this).children(".iconfont").addClass("icon-circle");
+						$(".item_left").children(".iconfont").removeClass("icon-gouhao");
+						$(".item_left").children(".iconfont").addClass("icon-circle");
+					}
+				})
+				
+				//单选
+				$(".item_left").children(".iconfont").click(function()
+				{
+					$(this).toggleClass("icon-gouhao");
+					if($(this).hasClass("icon-circle"))
+					{
+						$(this).removeClass("icon-circle");
+					}
+					else
+					{
+						$(this).addClass("icon-circle");
+					}
+				})
+			})
+		</script>
+	</head>
+	<body>
+		<div class="all">
+			<header class="header">
+				<div></div>
+				<h2>购物车</h2>
+				<div class="header_quota" id="header_quota">管理</div>
+			</header>
+			
+			<div class="middle">
+				<span class="iconfont icon-shijian"></span>
+				<span>全场满30减10</span>
+			</div>
+			
+			<div class="container">
+				<div class="item">
+					<div class="item_left">
+						<span class="iconfont icon-gouhao"></span>
+					</div>
+					<div class="item_right">
+						<div class="item_right_left">
+							<img src="img/timg.jpg"/>
+						</div>
+						<div class="item_right_right">
+							<p class="item_right_right_title">PITTA MASK甜甜圈</p>
+							<p class="item_right_right_number">x1</p>
+							<div class="item_right_right_bottom">
+								<p class="item_right_right_price">￥45.00</p>
+								<p class="item_right_right_bottom_bottom">
+									<span class="jian">-</span>
+									<input type="text" value="1"/>
+									<span class="jia">+</span>
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				<div class="item">
+					<div class="item_left">
+						<span class="iconfont icon-circle"></span>
+					</div>
+					<div class="item_right">
+						<div class="item_right_left">
+							<img src="img/timg.jpg"/>
+						</div>
+						<div class="item_right_right">
+							<p class="item_right_right_title">PITTA MASK甜甜圈</p>
+							<p class="item_right_right_number">x1</p>
+							<div class="item_right_right_bottom">
+								<p class="item_right_right_price">￥45.00</p>
+								<p class="item_right_right_bottom_bottom">
+									<span class="jian">-</span>
+									<input type="text" value="1"/>
+									<span class="jia">+</span>
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				<div class="item">
+					<div class="item_left">
+						<span class="iconfont icon-circle"></span>
+					</div>
+					<div class="item_right">
+						<div class="item_right_left">
+							<img src="img/timg.jpg"/>
+						</div>
+						<div class="item_right_right">
+							<p class="item_right_right_title">PITTA MASK甜甜圈</p>
+							<p class="item_right_right_number">x1</p>
+							<div class="item_right_right_bottom">
+								<p class="item_right_right_price">￥45.00</p>
+								<p class="item_right_right_bottom_bottom">
+									<span class="jian">-</span>
+									<input type="text" value="1"/>
+									<span class="jia">+</span>
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<div class="foot">
+				<div class="foot_settlement">
+					<div class="foot_settlement_left">
+						<span class="iconfont icon-circle"></span>
+						<span>全选</span>
+					</div>
+					<div class="foot_settlement_middle">
+						<span class="font">不含运费</span>合计:<span class="color">￥90</span>
+					</div>
+					<div class="foot_settlement_right">
+						去结算
+					</div>
+				</div>
+				<ul>
+					<li>
+						<a href="">
+							<span class="iconfont icon-shouye"></span>
+							<p>首页</p>
+						</a>
+					</li>
+					<li>
+						<a href="">
+							<span class="iconfont icon-leimupinleifenleileibie"></span>
+							<p>分类</p>
+						</a>
+					</li>
+					<li>
+						<a href="">
+							<span class="iconfont icon-ai-cart red"></span>
+							<p class="red">购物车</p>
+						</a>
+					</li>
+					<li>
+						<a href="">
+							<span class="iconfont icon-wode"></span>
+							<p>我的</p>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</body>
+</html>

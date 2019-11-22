@@ -1,0 +1,85 @@
+body{
+	background-color: #F5F5F5;
+}
+.all{
+	font-size: 0.12rem;
+	background-color: #fff;
+}
+.header{
+	height: 0.84rem;
+	line-height: 0.84rem;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding-left: 0.34rem;
+}
+.header .iconfont{
+	font-size: 0.32rem;
+	color: #7D7D7D;
+}
+.header h2{
+	font-size: 0.32rem;
+	font-weight: bold;
+}
+.recharge{
+	margin-left: 0.68rem;
+	margin-right: 0.68rem;
+}
+.recharge .recharge_mode{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	line-height: 1.52rem;
+}
+.recharge .recharge_mode .recharge_mode_left{
+	font-size: 0.24rem;
+}
+.recharge .recharge_mode .recharge_mode_right select{
+	font-size: 0.24rem;
+	border: 0;
+}
+.recharge_money{
+	border-bottom: 0.03rem solid #F4F4F4; 
+	padding-bottom: 0.28rem;
+}
+.recharge_money .recharge_money_top{
+	font-size: 0.24rem;
+	color: #BEBEBE;
+	padding-bottom: 0.3rem;
+}
+.recharge_money .recharge_money_bottom{
+	font-size: 0.45rem;
+	font-weight: bold;
+}
+.recharge_money input{
+	border: 0;
+	font-size: 0.45rem;
+	font-weight: bold;
+	width: 60%;
+}
+.triangle{
+	content: '';
+    width: 0;
+    height: 0;
+    border-top: 4px solid transparent;
+    border-left: 5px solid #666;
+    border-bottom: 4px solid transparent;
+    display: inline-block;
+    margin-right: 5px;
+    transform: rotate(90deg);
+}
+.recharge_yes{
+	margin-top: 0.56rem;
+	padding-bottom: 1.26rem;
+}
+.recharge_yes a{
+	width: 100%;
+	display: block;
+	background-color: #FF6019;
+	font-size: 0.32rem;
+	color: #fff;
+	text-align: center;
+	padding: 0.28rem 0rem;
+	border-radius: 0.4rem;
+	margin: 0 auto;
+}

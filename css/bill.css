@@ -1,0 +1,92 @@
+.all{
+	font-size: 0.12rem;
+}
+.header{
+	height: 0.84rem;
+	line-height: 0.84rem;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding-left: 0.34rem;
+}
+.header .iconfont{
+	font-size: 0.32rem;
+	color: #7D7D7D;
+}
+.header h2{
+	font-size: 0.32rem;
+	font-weight: bold;
+}
+.bill{
+	background-color: #F7F8FA;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding-left: 0.26rem;
+	padding-right: 0.26rem;
+}
+.bill_left .bill_left_top{
+	padding-top: 0.24rem;
+	font-size: 0.28rem;
+}
+.bill_left .bill_left_bottom{
+	font-size: 0.22rem;
+	padding-top: 0.12rem;
+	color: #DEDFE0;
+	padding-bottom: 0.2rem;
+}
+.bill a{
+	padding-top: 0.35rem;
+}
+.bill a .iconfont{
+	font-size: 0.34rem;
+}
+.item{
+	padding-right: 0.3rem;
+	padding-top: 0.3rem;
+	padding-bottom: 0.2rem;
+	border-bottom: 0.03rem solid #F6F6F6;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.item_left{
+	margin-left: 0.28rem;
+	color: #9C9C9C;
+	width: 20%;
+}
+.item_left .item_left_top{
+	font-size: 0.28rem;
+	padding-bottom: 0.15rem;
+}
+.item_left .item_left_bottom{
+	font-size: 0.22rem;
+}
+.item_middle{
+	display: flex;
+	flex-direction: row;
+	width: 65%;
+}
+.item_middle .iconfont{
+	display: block;
+	font-size: 0.45rem;
+	padding-right: 0.25rem;
+}
+.item_middle .item_middle_top{
+	font-size: 0.28rem;
+	padding-bottom: 0.15rem;
+	font-weight: bold;
+}
+.item_middle .item_middle_bottom{
+	font-size: 0.24rem;
+}
+.item_right{
+	width: 15%;
+	text-align: right;
+	font-size: 0.32rem;
+	color: #585858;
+	padding-top: 0.12rem;
+}
+.red{
+	color: #FE514D;
+}

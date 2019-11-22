@@ -94,16 +94,25 @@
     </div>
 
     <script>
-        window.onload = function(){
-            var lis = document.getElementsByTagName("li");
+        window.onload = function () {
+            // var lis = document.getElementsByTagName("li");
             var as = document.getElementsByClassName("collection");
             var del = document.getElementsByClassName("del");
-            for(var i=0;i<as.length;i++){
-                as[i].onmouseover = function(){
+            for (var i = 0; i < as.length; i++) {
+                // as[i].onmouseover = function(){
+                //     this.style = "margin-left:-1.5rem";
+                // }
+                // as[i].onmouseout = function(){
+                //     this.style = "margin-left:0";
+                // }
+                as[i].index = i;
+                as[i].onmouseover = function () {
                     this.style = "margin-left:-1.5rem";
+                    del[this.index].style.display = "block";
                 }
-                as[i].onmouseout = function(){
+                as[i].onmouseout = function () {
                     this.style = "margin-left:0";
+                    del[this.index].style.display = "none";
                 }
             }
         }

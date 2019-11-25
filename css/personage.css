@@ -1,0 +1,109 @@
+/* 头部 */
+a{
+	color: #000000;
+}
+.header{
+    background: linear-gradient(to right, #fe6418, #fe261c);
+    display: flex;
+    justify-content: space-between;
+    
+}
+.header-left{
+    display: flex;
+    align-items: center;
+    height: 2.7rem;
+    margin-left: 0.28rem;
+
+}
+.header-r p{
+    color: white;
+    font-size: 0.3rem;
+    padding-bottom: 0.1rem;
+}
+.header-r{
+    margin-left: 0.2rem;
+}
+/* 头部右边 */
+.header-right{
+    border: none;
+    height: 0.44rem;
+    width: 1.12rem;
+    background-color: white;
+    font-size: 0.24rem;
+    border-radius: 0.5rem;
+    padding-left: 0.2rem;
+    color: #fe261c;
+    margin-top: 1.18rem;
+    line-height: 0.44rem;
+    margin-right: 0.26rem;
+}
+/* 订单 */
+.order{
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.22rem;
+    margin-left: 0.3rem;
+    margin-top: 0.16rem;
+    margin-right: 0.3rem;
+    margin-bottom: 0.36rem;
+}
+.order-text{
+    color: #959595;
+}
+/* 图标 */
+.icon-ul{
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 0.15rem solid #f5f5f5;
+}
+.li-icon{
+    font-size: 0.36rem;
+    color: #fe5a19;
+}
+.icon-li{
+    text-align: center;
+    margin-bottom: 0.26rem;
+}
+/* 中间 */
+.middle-ul .middle-li{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.26rem;
+    padding-bottom: 0.26rem;
+    border-bottom: 1px solid #f4f4f4;
+    margin-left: 0.3rem;
+    align-items: center;
+}
+.icon-text{
+    font-size: 0.26rem;
+    display: flex;
+    align-items: center;
+}
+.icon-text p{
+    padding-left: 0.16rem;
+}
+.middle-logo{
+    font-size: 0.44rem;
+}
+.middle-text{
+    font-size: 0.24rem;
+    color: #888888;
+    margin-right: 0.28rem;
+}
+/* 底部 */
+.bottom{
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+.bottom-ul{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 0.66rem;
+    box-shadow: 0 0 10px #f2f2f2;
+    background-color: #faf8f8;
+}
+.bottom-li{
+    text-align: center;
+    color: #cdcdcd;
+}

@@ -1,0 +1,46 @@
+@charset "UTF-8";
+/* 页面标题 */
+.container .page-title{
+    padding: 0.22rem 0;
+    width: 100%;
+    font-size: 0.32rem;
+    font-weight: 700;
+    text-align: center;
+    position: relative;
+    background-color: #fff;    
+    border-bottom: 1px solid  #f4f4f4;
+}
+.page-title a{
+    display: block;
+    width: 0.2rem;
+    height: 0.2rem;
+    border-bottom: 2px solid #686868;
+    border-left: 2px solid #686868;
+    transform: rotate(44deg);
+    position: absolute;
+    top: 0.26rem;
+    left: 0.34rem;
+}
+
+/* 内容 */
+.contentbox{
+    padding-left: 0.3rem;
+}
+.contentbox .content{
+    border-bottom: 1px solid  #f4f4f4;
+    padding: 0.3rem;
+    padding-left: 0;
+}
+.content .content-title{
+    font-size: 0.26rem;
+    font-weight: 700;
+    margin-bottom: 0.12rem;
+}
+.content .content-text p{
+    font-size: 0.2rem;
+    color: #5f5f5f;
+    line-height: 0.44rem;
+}
+.contentbox .three{
+    border-bottom: 0 none;
+}

@@ -1,0 +1,63 @@
+/* 头部 */
+.header{
+    display: flex;
+    height: 0.8rem;
+}
+.h1{
+    flex: 1;
+    text-align: center;
+    font-weight: bold;
+    font-size: 0.3rem;
+    line-height: 0.8rem;
+    margin-right: 0.5rem;
+}
+.top-icon{
+    font-size: 0.4rem;
+    margin-left: 0.2rem;
+    line-height: 0.8rem;
+}
+/* 中间 */
+.middle{
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+}
+.middle-img img{
+    margin-top: 1.4rem;
+}
+.middle-text .submit-text{
+    font-size: 0.3rem;
+    padding-top: 0.24rem;
+    padding-bottom:0.24rem; 
+}
+.middle-text .submit-p{
+    color: #949494;
+    font-size: 0.24rem;
+    padding-bottom: 0.6rem;
+}
+.bottom-pay{
+    margin: 0 auto;
+    text-align: center;
+}
+.button {
+   /*  background-color: #fe4b1a; */
+   background: linear-gradient(to right, #fe6118, #fe301c);
+    border: none;
+    color: white;
+    padding: 16px 90px;
+    text-align: center;
+    display: inline-block;
+    font-size: 0.3rem;
+    border-radius: 0.5rem;
+} 
+.button1{
+    color: black;
+    padding: 16px 90px;
+    border: 1px solid #e6e6e6;
+    background-color: white;
+    text-align: center;
+    display: inline-block;
+    font-size: 0.3rem;
+    border-radius: 0.5rem;
+    margin-top: 0.4rem;
+} 

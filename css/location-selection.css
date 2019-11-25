@@ -1,0 +1,73 @@
+/* 头部 */
+.header{
+    display: flex;
+    height: 0.8rem;
+}
+.h1{
+    flex: 1;
+    text-align: center;
+    font-weight: bold;
+    font-size: 0.34rem;
+    line-height: 0.8rem;
+    margin-right: 0.5rem;
+}
+.top-icon{
+    font-size: 0.4rem;
+    margin-left: 0.3rem;
+    line-height: 0.8rem;
+}
+/* 中间 */
+.middle{
+    display: flex;
+    justify-content: space-between;
+    height: 0.6rem;
+    margin-top: 0.4rem;
+}
+.middle-left{
+    font-size: 0.34rem;
+    line-height: 0.6rem;
+    margin-left: 0.3rem;
+}
+.middle-right{
+    border: 1px solid #e6e6e6;
+    border-radius: 0.5rem;
+    margin-right: 0.3rem;
+    padding: 5px 20px;
+    height: 0.4rem;
+    line-height: 0.4rem;
+}
+.middle-right .middle-text{
+    font-size: 0.3rem;
+    color: red;
+}
+.middle-icon{
+    font-size: 0.36rem;
+    color: red;
+}
+/* 下部 */
+.addres{
+    width: 100%;
+    height: 0.9rem;
+    background-color: #f5f5f5;
+    color: #f5f5f5;
+    border: none;
+    margin-top: 0.2rem;
+    font-size: 0.26rem;
+    padding-left: 0.3rem;
+}
+.addres-ul .addres-li p{
+    display: inline;
+    font-size: 0.34rem;
+    color: #333333;
+}
+.addres-ul .addres-li span{
+    font-size: 0.34rem;
+    color: #999999;
+}
+.addres-li{
+    display: flex;
+    justify-content: space-between;
+    height: 1rem;
+    line-height: 1rem;
+    margin-left: 0.3rem;
+}

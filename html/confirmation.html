@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0,
+				maximum-scale=1.0, user-scalable=no">
+		<meta charset="utf-8">
+		<title>确认订单</title>
+		<link rel="stylesheet" type="text/css" href="../css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/confirmation.css"/>
+		<script src="../js/rem.js" type="text/javascript" charset="utf-8"></script>
+		<link rel="stylesheet" href="../font/iconfont.css">
+		<script src="../js/jquery-1.6.2.min.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			$(function()
+			{
+				$(".bottom").click(function()
+				{
+					window.location="payment-method.html";
+				})
+			})
+		</script>
+	</head>
+	<body>
+		<div class="all">
+			<header class="header">
+				<a href="order-details.html"><span class="iconfont icon-shezhi"></span></a>
+				<h2>确认订单</h2>
+				<div></div>
+			</header>
+			
+			<div class="middle">
+				<div class="order">
+					<div class="order_left">
+						<span class="iconfont icon-shouye"></span></a>
+					</div>
+					<div class="order_right">
+						<div class="order_right_top">
+							<span class="order_right_top_name">
+								朱小明
+							</span>
+							<span class="order_right_top_phone">
+								150 **** 2104
+							</span>
+						</div>
+						<div class="order_right_bottom">
+							天津市和平区大沽北路15号环球金融中心2407
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<div class="container">
+				<div class="container_top">
+					<span class="iconfont icon-shangpin"></span>
+					<span class="container_top_left_font">
+						商品信息
+					</span>
+				</div>
+				
+				<div class="item">
+					<div class="item_top">
+						<div class="item_left">
+							<img src="../img/timg.jpg"/>
+						</div>
+						<div class="item_right">
+							<div class="item_right_top">
+								<span class="item_left_top_left">
+									办公室颈肩理疗
+								</span>
+								<span class="item_left_top_right">
+									￥72
+								</span>
+							</div>
+							<p class="item_left_right_bottom">
+								x1
+							</p>
+						</div>
+					</div>
+					<div class="item_bottom">
+						<div class="item_bottom_left">
+							运费
+						</div>
+						<div class="item_bottom_right">
+							￥0.00
+						</div>
+					</div>
+				</div>
+				
+				<div class="coupon">
+					<div class="coupon_left">
+						优惠劵
+					</div>
+					<div class="coupon_right">
+						<span class="coupon_right_money">-5</span>
+						<span class="iconfont icon-wodeyouhuijuan"></span>
+						<span class="iconfont icon-xiala"></span>
+					</div>
+				</div>
+				
+				<div class="payment">
+					<div class="payment_left">
+						实际付款（含运费）
+					</div>
+					<div class="payment_right">
+						￥67.00
+					</div>
+				</div>
+			</div>
+			
+			<div class="bottom">
+				立即付款
+			</div>
+		</div>
+	</body>
+</html>

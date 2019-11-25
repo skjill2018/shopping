@@ -1,0 +1,65 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "436068",
+      "name": "正品保证",
+      "font_class": "2",
+      "unicode": "e603",
+      "unicode_decimal": 58883
+    },
+    {
+      "icon_id": "846010",
+      "name": "个性定制",
+      "font_class": "gexingdingzhi",
+      "unicode": "e63b",
+      "unicode_decimal": 58939
+    },
+    {
+      "icon_id": "1764103",
+      "name": "客服热线",
+      "font_class": "kefurexian",
+      "unicode": "e6f7",
+      "unicode_decimal": 59127
+    },
+    {
+      "icon_id": "4425833",
+      "name": "左箭头",
+      "font_class": "zuojiantou",
+      "unicode": "e79b",
+      "unicode_decimal": 59291
+    },
+    {
+      "icon_id": "4520183",
+      "name": "消息",
+      "font_class": "xiaoxi",
+      "unicode": "e691",
+      "unicode_decimal": 59025
+    },
+    {
+      "icon_id": "7160378",
+      "name": "退货",
+      "font_class": "tuihuo",
+      "unicode": "e602",
+      "unicode_decimal": 58882
+    },
+    {
+      "icon_id": "10537632",
+      "name": "7天发货服务",
+      "font_class": "tianfahuofuwu",
+      "unicode": "e6d8",
+      "unicode_decimal": 59096
+    },
+    {
+      "icon_id": "10950082",
+      "name": "搜索",
+      "font_class": "icon-test",
+      "unicode": "e624",
+      "unicode_decimal": 58916
+    }
+  ]
+}

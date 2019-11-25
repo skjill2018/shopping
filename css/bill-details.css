@@ -1,0 +1,75 @@
+@charset "UTF-8";
+body{
+    background-color: #f5f5f5;
+}
+.container{
+    background-color: #fff;
+}
+
+/* 页面标题 */
+.container .page-title{
+    padding: 0.22rem 0;
+    width: 100%;
+    font-size: 0.32rem;
+    font-weight: 700;
+    text-align: center;
+    position: relative;
+}
+.page-title a{
+    display: block;
+    width: 0.2rem;
+    height: 0.2rem;
+    border-bottom: 2px solid #686868;
+    border-left: 2px solid #686868;
+    transform: rotate(44deg);
+    position: absolute;
+    top: 0.26rem;
+    left: 0.34rem;
+}
+
+/* 内容部分 */
+.container .content{
+    padding: 0.2rem 0.22rem;
+    background-color: #f5f5f5;
+}
+/* 消费 */
+.content .content-top{
+    padding: 0.5rem 0;
+    background-color: #fff;
+    text-align: center;
+    font-size: 0.26rem;
+    border-radius: 0.2rem;
+    border-bottom: 2px dashed #f5f5f5;
+}
+.content-top .cost{
+    font-size: 0.38rem;
+    color: #fe231d;
+    margin-top: 0.36rem;
+}
+/* 相关信息 */
+.content .content-bottom{
+    background-color: #fff;
+    padding: 0.56rem 0.22rem 0.42rem 0.22rem;    
+    border-radius: 0.2rem;
+    color: #939393;
+    font-size: 0.22rem;
+}
+.content-bottom .messagebox .public{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.46rem;
+}
+.public .text{
+    width: 2.18rem;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+/* 联系我们 */
+.content .connection{
+    margin-top: 1.22rem;
+    text-align: center;
+}
+.connection span{
+    color: #1781fe;
+}

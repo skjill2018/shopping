@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0,
+				maximum-scale=1.0, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>修改密码</title>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../font/iconfont.css">
+    <link rel="stylesheet" href="../css/change-pwd.css">
+    <script src="../js/rem.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <!-- 页面标题 -->
+        <header class="page-title">
+            <a href="./login.html"></a>
+            修改密码
+        </header>
+
+        <!-- 内容 -->
+        <main class="content">
+            <!-- 小标题 -->
+            <h2>验证身份</h2>
+            <!-- 输入框 -->
+            <div class="inputbox">
+                <div class="input">
+                    <div class="input-lef">
+                        <i class="iconfont icon-wode"></i>
+                        <input type="text" placeholder="输入手机号" id="input-number">
+                    </div>
+                    <span class="send">发送验证码</span>
+                </div>
+                <div class="input normal">
+                    <i class="iconfont icon-wode"></i>
+                    <input type="text" placeholder="输入验证码" id="input-code">
+                </div>
+            </div>
+            <!-- 下一步按钮 -->
+            <a href="#" class="next" id="nextone">  
+                下一步
+            </a>
+        </main>
+    </div>
+    
+    <script>
+        window.onload = function(){
+            function $(id){
+                return document.getElementById(id);
+            }
+            var send = document.getElementsByClassName("send");
+            $("nextone").onclick = function(){
+                $("nextone").innerHTML = "完成";
+                $("input-number").placeholder = "输入新密码";
+                $("input-code").placeholder = "重复新密码";
+                send[0].innerHTML = "";
+            }
+        }
+    </script>
+</body>
+
+</html>

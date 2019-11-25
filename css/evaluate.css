@@ -1,0 +1,80 @@
+/* 头部 */
+.header{
+    display: flex;
+    height: 0.8rem;
+}
+.h1{
+    flex: 1;
+    text-align: center;
+    font-weight: bold;
+    font-size: 0.34rem;
+    line-height: 0.8rem;
+    margin-right: 0.5rem;
+}
+.top-icon{
+    font-size: 0.4rem;
+    margin-left: 0.2rem;
+    line-height: 0.8rem;
+}
+/* 中间 */
+.evaluate-text p{
+    font-size: 0.22rem;
+    margin-left: 0.2rem;
+    margin-top: 0.3rem;
+    margin-bottom: 0.2rem;
+    margin-right: 0.2rem;
+}
+.evaluate-p{
+    color: #b5b5b5;
+    height: 3.2rem;
+    border: 1px solid #e6e6e6;
+    background-color: #f8f8f8;
+    border-radius: 0.1rem;
+    padding-left: 0.3rem;
+    padding-top: 0.2rem;
+}
+/*商品图片 */
+.evaluate-pic{
+    display: flex;
+    margin-bottom: 0.4rem;
+}
+.evaluate-pic .evaluate-add{
+    width: 1.6rem;
+    height: 1.6rem;
+    border: 1px #e0e0e0;
+    border-style: dashed;
+    color: #b4b4b4;
+    margin-left: 0.2rem;
+    text-align: center;
+}
+.evaluate-icon{
+    font-size: 0.8rem;
+}
+/* 商品评分 */
+.grade{
+    display: flex;
+    align-items: center;
+    border-top: 1px solid #f5f5f5;
+    padding-top: 0.2rem;
+    margin-left: 0.2rem;
+}
+.grade p{
+    font-size: 0.26rem;
+}
+/* 按钮 */
+.bottom-submit{
+    margin: 0 auto;
+    text-align: center;
+    line-height: 2.4rem;
+}
+.button {
+   /*  background-color: #fe4b1a; */
+   background: linear-gradient(to right, #fe6118, #fe301c);
+    border: none;
+    color: white;
+    padding: 12px 140px;
+    text-align: center;
+    display: inline-block;
+    font-size: 0.3rem;
+    border-radius: 0.5rem;
+} 

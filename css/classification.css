@@ -1,0 +1,108 @@
+@charset "UTF-8";
+/* 页面标题 */
+.container .page-title{
+    border-bottom: 1px solid #ececec;
+    padding: 0.22rem 0;
+    font-size: 0.32rem;
+    text-align: center;
+    font-weight: 700;
+    position: relative;
+}
+.page-title .iconfont{
+    font-size: 0.38rem;
+    position: absolute;
+    right: 0.28rem;
+    top: 0.2rem;
+}
+
+/* 内容部分 */
+.container .content{
+    display: flex;
+    margin-bottom: 0.88rem;
+}
+/* 左边列表 */
+.content .left-nav{
+    width: 30%;
+}
+.content .left-nav li{
+    font-size: 0.28rem;
+    padding: 0.3rem 0.26rem;
+}
+.left-nav .first-li{
+    border-right: 0.04px solid #ff100a;
+    background-color: #f5f5f5;
+}
+/* 右边分类 */
+.content .right-classify{
+    height: 82vh;
+    width: 70%;
+    border-left: 1px solid #ececec;
+    padding: 0.14rem;
+}
+/* 图片 */
+.right-classify img{
+    display: block;
+    width: 4.4rem;
+    height: 1.86rem;
+}
+/* 标题 */
+.right-classify .classfiy-title{
+    font-size: 0.26rem;
+    padding: 0.44rem 0.9rem;    
+    display: flex;
+}
+.classfiy-title .title-public{
+    width: 0.6rem;
+    border-top: 1px solid  #9a9a9a;
+    margin-top: 0.13rem;
+}
+.classfiy-title .title-text{
+    margin: 0 0.16rem;
+}
+/* 分类列表 */
+.content .detail-classify{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.detail-classify li{
+    text-align: center;
+    width: 30%;
+    margin-bottom: 0.6rem;
+}
+.detail-classify .iconfont{
+    font-size: 0.5rem;
+}
+.detail-classify p{    
+    font-size: 0.2rem;
+}
+
+/* 底部分类 */
+.container .fixedbox{
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    background-color: #fff;
+    box-shadow: 0 -1px 1px #efefef;
+    display: flex;
+    justify-content: space-between;
+}
+.fixedbox li{    
+    width: 25%;
+}
+.fixedbox a{
+    display: block;
+    font-size: 0.16rem;
+    text-align: center;
+    padding: 0.12rem 0;
+    color: #c9c9c9;
+}
+.fixedbox .this{
+    color: #fe231d;
+}
+.fixedbox .iconfont{
+    font-size: 0.4rem;
+}
+.fixedbox p{    
+    margin-top: 0.08rem;
+}

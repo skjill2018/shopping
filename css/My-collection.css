@@ -1,0 +1,33 @@
+.header{
+    display: flex;
+    height: 0.8rem;
+}
+.h1{
+    flex: 1;
+    text-align: center;
+    font-weight: bold;
+    font-size: 0.3rem;
+    line-height: 0.8rem;
+    margin-right: 0.5rem;
+}
+.top-icon{
+    font-size: 0.4rem;
+    margin-left: 0.2rem;
+    line-height: 0.8rem;
+}
+/* 中间 */
+.middle{
+    height: 8rem;
+    position: relative;
+   }
+.middle img{
+   height: 3rem;
+   position: absolute;
+   top: 0; right: 0; bottom: 0; left: 0;
+   margin: auto;
+   }
+   .middle p{
+       text-align: center;
+       color: #949494;
+       padding-top: 6.2rem;
+   }

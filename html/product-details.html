@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0,
+				maximum-scale=1.0, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>商品详情</title>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../font/iconfont.css">
+    <link rel="stylesheet" href="../css/product-details.css">
+    <script src="../js/rem.js"></script>
+	<script src="../js/jquery-1.6.2.min.js" type="text/javascript" charset="utf-8"></script>
+</head>
+
+<body>
+    <div class="container">
+        <!-- 上面的商品介绍 -->
+        <div class="product-introduction">
+            <!-- banner图 -->
+            <img src="../img/spbig.png" alt="">
+            <!-- 相关信息 -->
+            <div class="product-message">
+                <!-- 价格 -->
+                <div class="pricebox">
+                    <div class="price">
+                        <span class="nowprice">￥210.00</span>
+                        <span class="early">价格<i>￥210.00</i></span>
+                    </div>
+                    <div class="free">免运费</div>
+                </div>
+                <!-- 标题 -->
+                <div class="titlebox">
+                    <h2>铝合金拉杆箱万轮轴24寸</h2>
+                    <p>明显同款防尘保护防滑易清洗的24寸拉杆箱，优质出行体验</p>
+                </div>
+            </div>
+            <!-- 其它信息 -->
+            <div class="product-other-message">
+                <span>快递：免运费</span>
+                <span>月销：15笔</span>
+                <span>深圳报税仓</span>
+            </div>
+        </div>
+
+        <!-- 中间商品规格 -->
+        <div class="specification">
+            <div class="specification-common">
+                <span class="common">活动</span>
+                <span>满3件8折</span>
+            </div>
+            <div class="specification-common">
+                <span class="common">服务</span>
+                <span>海外正品 · 7天无理由退换货</span>
+            </div>
+            <div class="specification-common speci">
+                <span class="common">规格</span>
+                <span>选择 颜色分类 容量</span>
+                <i class="iconfont" id="select">&#xe69a;</i>
+            </div>
+        </div>
+
+        <!-- 商品评价 -->
+        <div class="evaluatebox">
+            <div class="evaluate-title">
+                <div class="left">
+                    <i class="iconfont">&#xe72c;</i>
+                    <span>商品评价(4.2星)</span>
+                </div>
+                <div class="right">
+                    共72条评论
+                </div>
+            </div>
+            <!-- 评价列表 -->
+            <div class="evaluate-list">
+                <div class="evaluate">
+                    <div class="star">
+                        <img src="../img/star.png" alt="">
+                        <span>朱*明</span>
+                    </div>
+                    <div class="text">
+                        产品和描述一致，很喜欢他们家的东西，体验了下东西确实不错
+                    </div>
+                    <div class="date">2019/11/19</div>
+                </div>
+                <div class="evaluate">
+                    <div class="star">
+                        <img src="../img/star.png" alt="">
+                        <span>朱*明</span>
+                    </div>
+                    <div class="text">
+                        产品和描述一致，很喜欢他们家的东西，体验了下东西确实不错
+                    </div>
+                    <div class="imgbox">
+                        <img src="../img/pj1.png" alt="">
+                        <img src="../img/pj2.png" alt="">
+                    </div>
+                    <div class="date">2019/11/19</div>
+                </div>
+                <!-- 查看全部评价 -->
+                <div class="all-evaluate">
+                    查看全部评价
+                </div>
+            </div>
+        </div>
+
+        <!-- 商品详情 -->
+        <div class="product-detailsbox">
+            <span class="color">商品介绍</span>
+            <span>规格参数</span>
+            <span>购买须知</span>
+        </div>
+
+        <!-- 底部选项 -->
+        <div class="fixedbox">
+            <div class="fixed-left">
+                <div class="left-pub">
+                    <i class="iconfont">&#xe610;</i>
+                    <p>客服</p>
+                </div>
+                <div class="left-pub">
+                    <i class="iconfont">&#xe666;</i>
+                    <p>收藏</p>
+                </div>
+            </div>
+            <div class="fixed-right">
+                <span class="add">加入购物车</span>
+                <span class="buy">立即购买</span>
+            </div>
+        </div>
+
+        <!-- 规格选择 -->
+        <div id="selectbox">
+            <div class="specification-select">
+                <!-- 图片及价格 -->
+                <div class="top-imgbox">
+                    <!-- 图片 -->
+                    <div class="pro-img">
+                        <img src="../img/gg2.png" alt="" class="side-img">
+                        <img src="../img/gg1.png" alt="">
+                        <img src="../img/gg3.png" alt="" class="side-img">
+                    </div>
+                    <!-- 价格 -->
+                    <div class="pro-price">
+                        <p class="price-color">￥210.00</p>
+                        <p>库存68件</p>
+                        <p class="specification-color">选择 <span>蓝色</span> 规格</p>
+                    </div>
+                </div>
+                <!-- 相关规格 -->
+                <div class="middle-specification">
+                    <div class="subheadbox">
+                        <h4>颜色分类</h4>
+                        <div class="subhead-content">
+                            <span class="speci-color">蓝色</span>
+                            <span>红色</span>
+                            <span>黄色</span>
+                            <span>绿色</span>
+                        </div>
+                    </div>
+                    <div class="subheadbox">
+                        <h4>规格</h4>
+                        <div class="subhead-content">
+                            <span>10ml</span>
+                            <span>20ml</span>
+                            <span>30ml</span>
+                            <span>40ml</span>
+                        </div>
+                    </div>
+                    <div class="subheadbox">
+                        <h4>数量</h4>
+                        <div class="subhead-content number">
+                            <span class="iconfont number-left">&#xe620;</span>
+                            <span class="number-middle">1</span>
+                            <span class="iconfont number-right">&#xe6a1;</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- 底部选择按钮 -->
+                <div class="bottom-select">
+                    <span class="add">加入购物车</span>
+                    <span class="buy">立即购买</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        window.onload = function(){
+            function $(id){
+                return document.getElementById(id); 
+            }
+            $("select").onclick = function(){
+                $("selectbox").style.display = "block";
+            }
+            $("selectbox").onclick = function(){
+                this.style.display = "none";
+            }
+        }
+		
+		$(function()
+		{
+			$(".add").click(function()
+			{
+				window.location="cart.html";
+			})
+			$(".buy").click(function()
+			{
+				window.location="order-details.html";
+			})
+		})
+    </script>
+</body>
+
+</html>
